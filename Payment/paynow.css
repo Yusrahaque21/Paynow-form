@@ -1,0 +1,53 @@
+/* Style the form container */
+body{
+    background:linear-gradient(#3498db,#97c7e7) ;
+}
+form {
+    background-color: #faf9f9;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #979191;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+  }
+  
+  /* Style form headings */
+   h1, h3 {
+    text-align: center;
+  }
+  
+  /* Style form inputs and labels */
+ #name,#addname,#email,#pincode {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Style radio buttons and labels */
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+button{
+    width: 100px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-left: 120px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+  
+ 
+ 
+   

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form</title>
+    <link rel="stylesheet" href="paynow.css">
+</head>
+<body>
+<form action="">
+    <h1>PAY NOW</h1>
+    <h3>Personal Information</h3>
+    <p>Name: <input type="text" name="name" required></p>
+    <fieldset>
+        <legend>Gender *</legend>
+        <p>Male<input type="radio" name="GENDER" id="MALE" required >
+            Female<input type="radio" name="GENDER" id="FEMALE" required>
+        </p>
+    </fieldset>
+        <p> Address: <textarea name="name" id="addname" cols="1" rows="1"></textarea>
+        </p>
+    <p>Email: <input type="email" name="email" id="email" required ></p>
+    <p>Pincode: <input type="number" name="pincode" id="pincode" required></p>
+    
+    <h3>PAYMENT INFORMATION</h3>
+    <p>Card Type
+        <select name="Card_Type" id="Card_Type" required>
+        <option value="">--select card type--</option>
+        <option value="alfalah">alfalah</option>
+        <option value="habib">habib</option>
+        <option value="other">other</option>
+        </select>
+        <p>
+    Card Number: <input type="number" name="number" id="number" required></p>
+    <p>Experiation Date: <input type="date" name="exp" id="exp"></p>
+    <p>Password: <input type="password" name="pass" id="pass" required></p>
+    <button>Pay Now</button>
+    </p>
+</form>
+</body>
+</html>
